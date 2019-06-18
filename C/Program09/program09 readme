@@ -1,0 +1,20 @@
+Program 9 is a pair of c programs, a server and a client, which will play 4 card poker.
+The server will create a 52 card deck and will randomly sort the deck of cards.
+The server will then enter a loop of infinte listen/accept.
+Once the server gets a request and accepts it, it will give the client the deck of cards.
+The client will request a connection to the server and once the connection is accpeted will receive a deck of cards.
+The player starts with 100 chips (bank roll).
+The following is then repeated until the player has no more chips or they wish to cash out:
+The player is asked to place a bet [1, # of chips they have]
+If there are enough cards left in the deck, then a 4 card “hand” is dealt from the deck and displayed 
+Otherwise a request is made of the server for a new “shuffled” deck, and then a 4 card “hand” is dealt from the deck and displayed
+A determination is made as to what the player wins, or if they lose and the bank roll is updated as follows:
+4 of a Kind	:  20,825 times the bet + the bet back
+Straight Flush	:  6,153 times the bet + the bet back
+3 of a Kind	:  108 times the bet + the bet back
+Straight 	:  98 times the bet + the bet back
+2 Pair		:  96 times the bet + the bet back
+Flush		:  96 times the bet + the bet back
+Pair		:  3 times the bet + the bet back
+anything else	:  loss of bet
+A report indicating number of hands played, won, lost, and final bank roll is displayed 
