@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Magic</title>
+<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+</head>
+
+<body><!-- you must use styles to lay this out so that you have a thumbnail gallery that displays the larger images in the iframe -->
+<div id="wrapper">
+<header id="banner">
+<h1><a href="../index.html">Kirk's TCG</a></h1>
+<nav id="menu">
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="magic.html">Magic</a></li>
+<li><a href="pokemon.html">Pokemon</a></li>
+<li><a href="yugioh.html">Yugioh</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h2>Magic</h2>
+<p>Magic the Gathering is a trading card game that features rich lore and stories. There are many different formats in Magic but I only play Commander.<br>
+If you're playing a game of Commander with three or more people, you play against each other in a free-for-all multiplayer format.
+
+Each player starts with 40 life, places their commander face-up in their command zone, and draws a hand of seven cards. Players are seated randomly in a circle and turns progress one player at a time in clockwise order around the table.<br>
+
+During gameplay, a player may choose to attack any other player, regardless of their position on the table, and can also choose to attack multiple different players during their attack phase. Permanents, spells, and abilities can also target any player around the table (as long as they don't explicitly say they must be used on "you").<br>
+
+    Your goal is to crush every other player, using strategy, skill, and the cards at your disposal. The last player left standing in each game wins!</p>
+<aside>
+<h3>Decks</h3>
+<nav id="decks">
+<!-- you could do this using image replacement instead of images-in-the-page (you'd remove the img tag and replace with text link), and that would allow you to create hover states :-) -->
+  <ul>
+  <li><a href="../decks/trostani.html" target="gallery"><img src="../decks/images/trostani-selesnyas-voice.png" width="199" height="285" alt="Trostani, Selenyas Voice magic card" /></a></li>
+  <li><a href="../decks/karador.html" target="gallery"><img src="../decks/images/karador-ghost-chieftain.png" width="199" height="285" alt="Karador, Ghost Chieftain magic card" /></a></li>
+  <li><a href="../decks/arahbo.html" target="gallery"><img src="../decks/images/arahbo-roar-of-the-world.png" width="199" height="285" alt="Arahbo, Roar of the World magic card" /></a></li>
+</ul>
+</nav>
+</aside>
+<!-- you need to put all the appropriate attributes for the iframe tag in yourself. Otherwise your iframe won't work! -->
+  <iframe name="gallery" width="1150" height="1050"> </iframe>
+
+</main>
+</div>
+</body>
+</html>

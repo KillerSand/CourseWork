@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Pokemon</title>
+<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+</head>
+
+<body><!-- you must use styles to lay this out so that you have a thumbnail gallery that displays the larger images in the iframe -->
+<div id="wrapper">
+<header id="banner">
+<h1><a href="../index.html">Kirk's TCG</a></h1>
+<nav id="menu">
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="magic.html">Magic</a></li>
+<li><a href="pokemon.html">Pokemon</a></li>
+<li><a href="yugioh.html">Yugioh</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h2>Pokemon</h2>
+<p>Pokemon is the newest card game that I play. It has the same structure as other games but of course it has its own rules that make it unique.</p>
+<p>Pokemon uses a deck of 60 cards for a one on one battle. You can have a total of six pokemon in play. One pokemon as your active and the other 5 on your bench.</p>
+<p>Active pokemon can attack other pokemon if they have the required energies attached to them. You can attach one energy from your hand to any of your pokemon once per turn.
+    The way to win is by collecting 6 prize cards. You get these prize cards by reducing your opponent's active pokemon's health to zero.</p>
+<aside>
+<h3>Decks</h3>
+<nav id="decks">
+<!-- you could do this using image replacement instead of images-in-the-page (you'd remove the img tag and replace with text link), and that would allow you to create hover states :-) -->
+  <ul>
+  <li><a href="../decks/golisopod.html" target="gallery"><img src="../decks/images/Golisopod.jpg" width="220" height="307" alt="thumbnail of rock" /></a></li>
+  <li><a href="../decks/alolan-ninetales.html" target="gallery"><img src="../decks/images/alolan-ninetales.jpg" width="220" height="307" alt="thumbnail of paper" /></a></li>
+  <li><a href="../decks/metagross.html" target="gallery"><img src="../decks/images/metagross.jpg" width="220" height="307" alt="thumbnail of scissors" /></a></li>
+</ul>
+</nav>
+</aside>
+<div id="pokemon">    
+<!-- you need to put all the appropriate attributes for the iframe tag in yourself. Otherwise your iframe won't work! -->
+  <iframe name="gallery" width="900" height="350" > </iframe>
+    </div>
+
+</main>
+</div>
+</body>
+</html>

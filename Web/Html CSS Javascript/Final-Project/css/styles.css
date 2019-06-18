@@ -1,0 +1,69 @@
+body{
+    background-image: url(felt.png);
+    font-family: Georgia; 
+}
+#wrapper{
+    margin: 0 auto;
+    width: 1150px;
+    border: 2px solid darkgray;
+    background-image: url(../images/plaid/plaid.png);
+}
+h1{
+    text-align: center;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+h1 a:hover{
+    color: darkgreen;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0; 
+	padding: 0;
+    border: 2px solid darkgray; 
+    border-left: none;
+}
+
+#menu li {
+	display: inline;
+	margin-left: 150px;
+}
+#menu li a{
+    text-decoration: none;
+    color: darkred;
+}
+#menu li a:hover{
+    color: darkgreen;
+}
+main p, main h3{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+main h2{
+    text-align: center;
+}
+#decks ul{
+    list-style: none;
+}
+#decks li{
+    display: inline;
+}
+iframe{
+    border: 0;
+    padding: 0;
+}
+#deck-pages{
+    background-image: url(../images/plaid/plaid.png);
+}
+#commander{
+    float: left;
+}
+.clearfix{
+    clear: left;
+}
+#pokemon{
+    margin-left: 180px;
+}
