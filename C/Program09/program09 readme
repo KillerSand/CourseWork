@@ -1,4 +1,5 @@
-***I know that the logic shouldn't be hosted on the client end cause a user could modify the code and win more money. The teacher wanted us to make the program this way because of simplicity.
+***I know that the logic shouldn't be hosted on the client end cause a user could modify the code and win more money. 
+The teacher wanted us to make the program this way because of simplicity.***
 
 Program 9 is a pair of c programs, a server and a client, which will play 4 card poker.
 The server will create a 52 card deck and will randomly sort the deck of cards.
