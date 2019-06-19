@@ -1,0 +1,11 @@
+I have created a runnable jar file. The reversi folder contains my code.
+The reverrsi program is only a sandbox environment for reversi. You will need to know the rules.
+The left side of the program is the reversi play area. The right side has buttons and other information.
+The top two text fields show how many pieces each color currently have.
+The second row contains two radio buttons that allows you to select which side goes first when a new game is created.
+The third row contains two text fields that display the number of wins each side has.
+The fourth row contains two radio buttons that allow you to set the size of the board when a new game is created.
+The fifth row contains two buttons that starts a new game or ends the current game.
+The sixth row contains a button and a text field. The button ends the turn for the current color and allows the other
+  color to place pieces. The text field shows how many ties have occured in the session.
+The last row shows whose turn it is.
