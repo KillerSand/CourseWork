@@ -1,0 +1,6 @@
+ls -l
+pwd
+clear
+mkdir love
+rmdir love
+mkdir itworks
