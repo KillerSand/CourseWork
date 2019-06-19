@@ -1,0 +1,6 @@
+Program 8 is a simple shell that functions as a command prompt.
+You will be able to type unix/linux commands with additonal arguments.
+You can type multi and a file name that has command line arguments.
+Typing exit will quit the program.
+When executing one of the commands the program forks and lets the child
+  process handle the commands while the parent waits for the child to finish.
